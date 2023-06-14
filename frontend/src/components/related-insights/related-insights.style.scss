@@ -1,0 +1,16 @@
+@import "src/assets/styles/variables";
+
+.related-insights {
+
+    .related-insights__title {
+        font-size: 32px;
+        line-height: 48px;
+        font-weight: 700;
+
+        text-align: center;
+
+        color: $text-gray1;
+
+        margin: 0 0 31px;
+    }
+}

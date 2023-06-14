@@ -1,0 +1,27 @@
+@import "src/assets/styles/variables";
+
+.news-page__main {
+    padding: 60px 0;
+
+    .content-wrapper {
+    }
+
+    .content-wrapper__text {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+
+        color: $text-gray2;
+
+        margin: 0 0 25px;
+    }
+
+    .content-wrapper__button {
+        color: $text-white;
+        background-color: $button-blue;
+
+        &:hover {
+            background-color: #005b8e;
+        }
+    }
+}

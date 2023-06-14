@@ -1,0 +1,34 @@
+@import "src/assets/styles/variables";
+
+.hero-section {
+    position: relative;
+    height: 481px;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        position: relative;
+        z-index: 1;
+        height: 100%;
+
+        padding: 31px 20px 140px;
+    }
+
+    .content {
+        margin: 0 auto;
+    }
+
+    .bg-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+
+        width: 100%;
+        height: 481px;
+
+        object-fit: cover;
+    }
+}

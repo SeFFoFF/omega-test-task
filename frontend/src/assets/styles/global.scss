@@ -1,0 +1,21 @@
+@import "null";
+@import "variables";
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    letter-spacing: 0.02em;
+}
+
+body {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    color: $text-gray1;
+}
+
+.container {
+    max-width: 1215px;
+    padding: 0 20px;
+    margin: 0 auto;
+}

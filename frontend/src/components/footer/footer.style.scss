@@ -1,0 +1,26 @@
+@import "src/assets/styles/variables";
+
+.footer {
+    background-color: $footer-color;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 50px;
+        height: 62px;
+    }
+
+    .footer__title {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 400;
+        color: $text-white;
+    }
+
+    .social-media-list {
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+    }
+}
