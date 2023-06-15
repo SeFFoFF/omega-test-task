@@ -1,6 +1,6 @@
 import React from 'react'
 import { Footer, HeroSection } from '@src/components'
-import '../assets/styles/global.scss'
+import '@src/assets/styles/global.scss'
 
 export const metadata = {
   title: 'OMEGA',
