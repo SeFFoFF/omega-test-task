@@ -1,12 +1,12 @@
 {
-  "name": "frontend",
+  "name": "omega",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "frontend/node_modules/.bin/next dev",
-    "build": "frontend/node_modules/.bin/next build",
-    "start": "frontend/node_modules/.bin/next start",
-    "lint": "frontend/node_modules/.bin/next lint"
+    "dev": "node_modules/.bin/next dev",
+    "build": "node_modules/.bin/next build",
+    "start": "node_modules/.bin/next start",
+    "lint": "node_modules/.bin/next lint"
   },
   "dependencies": {
     "@types/node": "20.3.0",
