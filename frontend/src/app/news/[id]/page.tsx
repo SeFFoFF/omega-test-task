@@ -1,14 +1,18 @@
+'use client'
+
 import React from 'react'
 import { Button, RelatedInsights } from '@src/components'
+import { useFetch } from '@src/hooks/useFetch'
 import './page.style.scss'
 
-interface IPageProps {
-  id: string
-}
+const NewsPage = ({ params }: { id: number }) => {
+  const { id } = params
+  const URL = `http://localhost:3000/api/news/${id}`
 
-const text: string = 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium'
+  const { data: news } = useFetch(URL)
 
-const NewsPage = ({ params }: IPageProps) => {
+  const text = news.length !== 0 ? news[0].text : 'Loading...'
+
   return (
     <main className='news-page__main'>
       <div className='content-wrapper'>

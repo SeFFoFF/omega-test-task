@@ -1,3 +1,5 @@
+'use client'
+
 import { NewsCardList } from '@src/components'
 import './page.style.scss'
 

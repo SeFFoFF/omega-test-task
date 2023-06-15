@@ -1,5 +1,9 @@
 @import "src/assets/styles/variables";
 
 .home-page__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     padding: 65px 0;
 }
